@@ -1,0 +1,49 @@
+﻿Build started 2/13/2018 8:38:08 PM.
+     1>Project "C:\Users\Gofree\Documents\Visual Studio 2015\Projects\atheneum_core\atheneum_core\atheneum_core.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt atheneum_core.cpp atheneum_db.cpp atheneum_file.cpp atheneum_reporting.cpp date_parsing.cpp mix_parsing.cpp
+         mix_parsing.cpp
+     1>c:\users\gofree\documents\visual studio 2015\projects\atheneum_core\atheneum_core\mix_parsing.cpp(38): warning C4018: '<': signed/unsigned mismatch
+         date_parsing.cpp
+     1>c:\users\gofree\documents\visual studio 2015\projects\atheneum_core\atheneum_core\date_parsing.cpp(11): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\gofree\documents\visual studio 2015\projects\atheneum_core\atheneum_core\date_parsing.cpp(84): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\time.h(505): note: see declaration of 'localtime'
+         atheneum_reporting.cpp
+     1>c:\users\gofree\documents\visual studio 2015\projects\atheneum_core\atheneum_core\atheneum_reporting.cpp(22): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\gofree\documents\visual studio 2015\projects\atheneum_core\atheneum_core\atheneum_reporting.cpp(24): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\gofree\documents\visual studio 2015\projects\atheneum_core\atheneum_core\atheneum_reporting.cpp(36): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\gofree\documents\visual studio 2015\projects\atheneum_core\atheneum_core\atheneum_reporting.cpp(34): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\time.h(505): note: see declaration of 'localtime'
+         atheneum_file.cpp
+         atheneum_db.cpp
+     1>c:\users\gofree\documents\visual studio 2015\projects\atheneum_core\atheneum_core\atheneum_db.cpp(31): warning C4804: '>': unsafe use of type 'bool' in operation
+     1>c:\users\gofree\documents\visual studio 2015\projects\atheneum_core\atheneum_core\atheneum_db.cpp(49): warning C4804: '>': unsafe use of type 'bool' in operation
+     1>c:\users\gofree\documents\visual studio 2015\projects\atheneum_core\atheneum_core\atheneum_db.cpp(74): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\gofree\documents\visual studio 2015\projects\atheneum_core\atheneum_core\atheneum_db.cpp(96): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\gofree\documents\visual studio 2015\projects\atheneum_core\atheneum_core\atheneum_db.cpp(104): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\gofree\documents\visual studio 2015\projects\atheneum_core\atheneum_core\atheneum_db.cpp(155): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\gofree\documents\visual studio 2015\projects\atheneum_core\atheneum_core\atheneum_db.cpp(166): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\gofree\documents\visual studio 2015\projects\atheneum_core\atheneum_core\atheneum_db.cpp(193): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\gofree\documents\visual studio 2015\projects\atheneum_core\atheneum_core\atheneum_db.cpp(222): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\gofree\documents\visual studio 2015\projects\atheneum_core\atheneum_core\atheneum_db.cpp(230): warning C4018: '<': signed/unsigned mismatch
+         atheneum_core.cpp
+     1>c:\users\gofree\documents\visual studio 2015\projects\atheneum_core\atheneum_core\atheneum_core.cpp(183): warning C4804: '>': unsafe use of type 'bool' in operation
+     1>c:\users\gofree\documents\visual studio 2015\projects\atheneum_core\atheneum_core\atheneum_core.cpp(198): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\gofree\documents\visual studio 2015\projects\atheneum_core\atheneum_core\atheneum_core.cpp(277): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\gofree\documents\visual studio 2015\projects\atheneum_core\atheneum_core\atheneum_core.cpp(330): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\gofree\documents\visual studio 2015\projects\atheneum_core\atheneum_core\atheneum_core.cpp(370): warning C4018: '<': signed/unsigned mismatch
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Gofree\Documents\Visual Studio 2015\Projects\atheneum_core\Debug\atheneum_core.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Gofree\Documents\Visual Studio 2015\Projects\atheneum_core\Debug\atheneum_core.pdb" /SUBSYSTEM:CONSOLE,"5.01" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Gofree\Documents\Visual Studio 2015\Projects\atheneum_core\Debug\atheneum_core.lib" /MACHINE:X86 Debug\atheneum_core.obj
+         Debug\atheneum_db.obj
+         Debug\atheneum_file.obj
+         Debug\atheneum_reporting.obj
+         Debug\date_parsing.obj
+         Debug\mix_parsing.obj
+         atheneum_core.vcxproj -> C:\Users\Gofree\Documents\Visual Studio 2015\Projects\atheneum_core\Debug\atheneum_core.exe
+         atheneum_core.vcxproj -> C:\Users\Gofree\Documents\Visual Studio 2015\Projects\atheneum_core\Debug\atheneum_core.pdb (Full PDB)
+     1>Done Building Project "C:\Users\Gofree\Documents\Visual Studio 2015\Projects\atheneum_core\atheneum_core\atheneum_core.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:34.86

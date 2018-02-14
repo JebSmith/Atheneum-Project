@@ -1,0 +1,43 @@
+﻿Build started 2/12/2018 9:28:17 AM.
+     1>Project "C:\Users\Gofree\Documents\Visual Studio 2015\Projects\atheneum_core\atheneum_core\atheneum_core.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt atheneum_core.cpp atheneum_db.cpp atheneum_file.cpp atheneum_reporting.cpp atheneum_server.cpp date_parsing.cpp mix_parsing.cpp
+         atheneum_core.cpp
+         atheneum_db.cpp
+     1>atheneum_db.cpp(18): warning C4804: '>': unsafe use of type 'bool' in operation
+     1>atheneum_db.cpp(36): warning C4804: '>': unsafe use of type 'bool' in operation
+     1>atheneum_db.cpp(61): warning C4018: '<': signed/unsigned mismatch
+     1>atheneum_db.cpp(83): warning C4018: '<': signed/unsigned mismatch
+     1>atheneum_db.cpp(91): warning C4018: '<': signed/unsigned mismatch
+     1>atheneum_db.cpp(142): warning C4018: '<': signed/unsigned mismatch
+     1>atheneum_db.cpp(153): warning C4018: '<': signed/unsigned mismatch
+     1>atheneum_db.cpp(180): warning C4018: '<': signed/unsigned mismatch
+     1>atheneum_db.cpp(209): warning C4018: '<': signed/unsigned mismatch
+     1>atheneum_db.cpp(217): warning C4018: '<': signed/unsigned mismatch
+         atheneum_file.cpp
+         atheneum_reporting.cpp
+     1>atheneum_reporting.cpp(22): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>atheneum_reporting.cpp(24): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+         atheneum_server.cpp
+         date_parsing.cpp
+     1>date_parsing.cpp(11): warning C4018: '<': signed/unsigned mismatch
+         mix_parsing.cpp
+     1>mix_parsing.cpp(22): warning C4018: '<': signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Gofree\Documents\Visual Studio 2015\Projects\atheneum_core\Release\atheneum_core.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Gofree\Documents\Visual Studio 2015\Projects\atheneum_core\Release\atheneum_core.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Gofree\Documents\Visual Studio 2015\Projects\atheneum_core\Release\atheneum_core.lib" /MACHINE:X86 /SAFESEH Release\atheneum_core.obj
+         Release\atheneum_db.obj
+         Release\atheneum_file.obj
+         Release\atheneum_reporting.obj
+         Release\atheneum_server.obj
+         Release\date_parsing.obj
+         Release\mix_parsing.obj
+         Generating code
+         All 325 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+         Finished generating code
+         atheneum_core.vcxproj -> C:\Users\Gofree\Documents\Visual Studio 2015\Projects\atheneum_core\Release\atheneum_core.exe
+         atheneum_core.vcxproj -> C:\Users\Gofree\Documents\Visual Studio 2015\Projects\atheneum_core\Release\atheneum_core.pdb (Full PDB)
+     1>Done Building Project "C:\Users\Gofree\Documents\Visual Studio 2015\Projects\atheneum_core\atheneum_core\atheneum_core.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:33.10
