@@ -1,0 +1,11 @@
+c:\users\gofree\documents\visual studio 2015\Projects\atheneum_client\atheneum_client\bin\Debug\atheneum_client.exe.config
+C:\Users\Gofree\Documents\Visual Studio 2015\Projects\atheneum_client\atheneum_client\bin\Debug\atheneum_client.exe
+C:\Users\Gofree\Documents\Visual Studio 2015\Projects\atheneum_client\atheneum_client\bin\Debug\atheneum_client.pdb
+C:\Users\Gofree\Documents\Visual Studio 2015\Projects\atheneum_client\atheneum_client\obj\Debug\atheneum_client.csprojResolveAssemblyReference.cache
+C:\Users\Gofree\Documents\Visual Studio 2015\Projects\atheneum_client\atheneum_client\obj\Debug\atheneum_client.Form1.resources
+C:\Users\Gofree\Documents\Visual Studio 2015\Projects\atheneum_client\atheneum_client\obj\Debug\atheneum_client.Properties.Resources.resources
+C:\Users\Gofree\Documents\Visual Studio 2015\Projects\atheneum_client\atheneum_client\obj\Debug\atheneum_client.startup.resources
+C:\Users\Gofree\Documents\Visual Studio 2015\Projects\atheneum_client\atheneum_client\obj\Debug\atheneum_client.csproj.GenerateResource.Cache
+C:\Users\Gofree\Documents\Visual Studio 2015\Projects\atheneum_client\atheneum_client\obj\Debug\atheneum_client.exe
+C:\Users\Gofree\Documents\Visual Studio 2015\Projects\atheneum_client\atheneum_client\obj\Debug\atheneum_client.pdb
+C:\Users\Gofree\Documents\Visual Studio 2015\Projects\atheneum_client\atheneum_client\obj\Debug\atheneum_client.help.resources
