@@ -1,5 +1,5 @@
 [H:str=FIRST_NAME,str=LAST_NAME,str=TYPE,mixed=BOOKS_OUT,]
-[E1:Peter,Nordwall,Teacher,{2/4/18,2/12/18,3,;},]
+[E1:James,Death,Teacher,{2/4/18,2/12/18,3,;},]
 [E2:Ryan,Smith,Student,{},]
 [E3:Jon,Smith,Student,{},]
 [E4:Brain,Coolio,Student,{},]
